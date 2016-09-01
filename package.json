@@ -1,0 +1,34 @@
+{
+  "name": "@types/once",
+  "version": "1.3.0",
+  "description": "Types for https://github.com/isaacs/once",
+  "typings": "index.d.ts",
+  "scripts": {
+    "lint": "tslint index.d.ts",
+    "bundle": "typings bundle -o bundle.d.ts",
+    "exec": "ts-node test.ts",
+    "test": "npm run lint && npm run bundle && npm run exec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/types/npm-once.git"
+  },
+  "author": {
+    "name": "Blake Embrey",
+    "email": "hello@blakeembrey.com",
+    "url": "http://blakeembrey.me"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/types/npm-once/issues"
+  },
+  "homepage": "https://github.com/types/npm-once#readme",
+  "devDependencies": {
+    "once": "^1.3.3",
+    "ts-node": "^1.3.0",
+    "tslint": "^3.15.1",
+    "tslint-config-typings": "^0.2.3",
+    "typescript": "^1.8.10",
+    "typings": "^1.3.2"
+  }
+}
